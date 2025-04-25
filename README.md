@@ -25,8 +25,8 @@ Clone o repositório para a sua máquina local:
 git clone https://github.com/Teslaneto/imoveis.git
 Acesse o diretório do projeto:
 
-cd crm-imobiliario
-Crie e configure o banco de dados no MySQL (conforme o exemplo acima).
+cd imoveis
+Crie e configure o banco de dados no MySQL (QUe estar no DB_install)
 
 Altere as configurações de conexão no arquivo conexao/conexao.php para corresponder ao seu banco de dados.
 
