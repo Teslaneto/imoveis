@@ -20,7 +20,7 @@ Banco de dados estar na pastar DB_install
 Clone o repositório para a sua máquina local:
 
 
-git clone https://github.com/seu-usuario/crm-imobiliario.git
+git clone https://github.com/Teslaneto/imoveis.git
 Acesse o diretório do projeto:
 
 cd crm-imobiliario
