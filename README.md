@@ -24,7 +24,7 @@ git clone https://github.com/Teslaneto/imoveis.git
 Acesse o diretório do projeto:
 
 cd imoveis
-Crie e configure o banco de dados no MySQL 
+Crie e configure o banco de dados no MySQL (QUe estar no DB_install)
 
 Altere as configurações de conexão no arquivo conexao/conexao.php para corresponder ao seu banco de dados.
 
