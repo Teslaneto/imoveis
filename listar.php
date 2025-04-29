@@ -160,9 +160,23 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
                     </div>
                 <?php endforeach; ?>
                 </tbody>
-                <p class="text-center" style="color:green;"><?= $_SESSION['updateMsg']; ?></p>
+            <!--LOGICA DE AVISOS-->
+            <?php if(!empty($_SESSION['updateMsg']) || !empty($_SESSION['delete'])):?>
+
+                    <div class="mt-3 text-success text-center">
+                        <?= $_SESSION['updateMsg'] ?>
+                    </div>
             </table>
-            <p class="text-center" style="color:green; margin-left: 40px;"><?=  $_SESSION['delete'];?></p>
+                    <div class="mt-3 text-success text-center">
+                        <?= $_SESSION['delete'] ?>
+                    </div>
+
+            <?php 
+                unset($_SESSION['updateMsg']);//ELE REMOVE A CHAVE 'updateMsg' 
+                unset($_SESSION['delete']);   //da sessão assim quando a pagina carrega novamente a messagem não é mais exibida
+                endif;
+            ?>
+
         </div>
     </div>
 

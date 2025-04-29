@@ -107,7 +107,10 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
                     <div class="mt-3 text-success text-center">
                         <?= $_SESSION['cadastroMsg'] ?>
                     </div>
-                <?php endif; ?>
+                <?php
+                    unset($_SESSION['cadastroMsg']);
+                    endif; 
+                ?>
             </form>
         </div>
     </div>
