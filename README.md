@@ -2,6 +2,8 @@
 ------------------------------------------------
 ## Este projeto simula um módulo de um CRM imobiliário, onde é possível cadastrar imóveis e interesses de clientes, com o objetivo de recomendar imóveis baseados nos critérios de interesse dos clientes. O sistema permite o cadastro, edição, exclusão e visualização tanto de imóveis quanto de interesses de clientes.
 ---------------
+![](./assets/tela.png)
+---------------
 ## Tecnologias Utilizadas
 PHP: Linguagem de programação para o backend.
 
